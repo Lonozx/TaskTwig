@@ -1,0 +1,104 @@
+.contactUs{
+    width: 264px;
+    height: 68px;
+    background: #1E836B;
+    text-transform: uppercase;
+    color: white;
+     font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+}
+.h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 42px;
+    background: url('http://localhost/wordpress_sites/wp-content/uploads/2024/08/Frame-6020.png');
+    padding: 228px 312px;
+}
+.h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+}
+.h2_black{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: black;
+}
+.green{
+    color: #1E836B;
+}
+.upper{
+    text-transform: uppercase;
+}
+.logo{
+width: 72px;
+height: 67px;
+background: url('http://localhost/wordpress_sites/wp-content/uploads/2024/08/Archizem-logo-eng-png800-1.png')
+}
+.section{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 120px 340px;
+gap: 29px;
+}
+.about{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 120px 340px;
+gap: 29px;
+}
+.section_description{
+display: flex;
+flex-direction: column;
+gap: 40px;
+}
+.section_galery{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.readmore{
+color: #1E836B;
+background: transparent;
+border: none;
+text-align: right;
+text-transform: uppercase;
+font-weight: 600;
+border-bottom: 1px #1E836B solid;
+width: 220px;
+padding: 13px 0 18px 1px;
+margin-left: -75px;
+position: relative;
+}
+.readmore:after{
+content: url('http://localhost/wordpress_sites/wp-content/uploads/2024/08/Mask-group.png');
+position: absolute;
+right: -20px;
+width: 9px;
+height: 9px;
+}
+.left_column{
+background: url('http://localhost/wordpress_sites/wp-content/uploads/2024/08/Rectangle-6.png');
+width: 930px;
+height: 606px;
+}

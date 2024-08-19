@@ -1,0 +1,38 @@
+{% if menu %}
+    <ul class="headerMenu">
+    
+        {% for item in items %}
+            <li class="{{ item.classes|join(' ') }}">
+                <a target="{{ item.target }}" href="{{ item.link }}">{{ item.title }}</a>
+                {% include 'partials/menu.twig' with {
+                    items: item.children
+                } %}
+            </li>
+        {% endfor %}
+        
+    </ul>
+
+   
+    
+    
+{% endif %}
+<style>
+ul.headerMenu:first-child:after{
+    content: url('http://localhost/wordpress_sites/wp-content/uploads/2024/08/Archizem-logo-eng-png800-1.png');
+    margin-top: 15px;
+    width: 72px;
+    height: 67px;
+}
+.headerMenu{
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+    justify-content: center;
+}
+
+.headerMenu li{
+    list-style:none;
+    padding-top: 43px;
+    padding-bottom: 43px;
+}
+</style>
